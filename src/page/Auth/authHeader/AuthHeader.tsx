@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './AuthHeader.scss';
 import { Modal } from '../modal/Modal';
-import SIgnUp from '../signUp/SIgnUp';
+import SIgnUp from '../Register/Register';
 import { Link } from 'react-router-dom';
 const AuthHeader = () => {
     const [openModal,setOpenModal] = useState(false);
